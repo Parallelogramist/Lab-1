@@ -1,6 +1,6 @@
 //Georgy Golubev & Zorigt
 //georggolubev@my.smccd.edu
-//CIS 255 HB
+//CIS 255 HBgggggg
 //DistanceCalculator.java
 //Calculates the distance between two points (x1, y1) and (x2, y2)
 //01/21/2012
@@ -32,7 +32,7 @@ public class DistanceCalculator {
             System.out.println("Enter y2 coordinate:");
             double y2 = input.nextDouble();
             //call the distance mathod to calculate results and then print
-            System.out.printf("The distance between coordinates is: "
+            System.out.printf("The distance between coordin       ates is: "
                     + "%.2f\n", distance( x1, y1, x2, y2 ));
             
             System.out.println("Do you like to continue calculating "
