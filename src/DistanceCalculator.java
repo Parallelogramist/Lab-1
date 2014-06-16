@@ -1,4 +1,4 @@
-//Georgy Golubev
+//Georgy Golubev & Zorigt
 //georggolubev@my.smccd.edu
 //CIS 255 HB
 //DistanceCalculator.java
@@ -7,16 +7,17 @@
 
 import java.util.Scanner;
 public class DistanceCalculator {
-    
+    //create more things
     //create method main
     public static void main( String[] args ){
         
         System.out.println("Programmed by Georgy Golubev");        
         //create scanner class input
+	System.out.printlin("Hello");
         Scanner input = new Scanner( System.in );
         //declare userInput as String    
         String userInput;
-        //do-while loop that promts for user input until he says no
+        //do-while loop that prompting for user input until he says no
         do{
             //promt user for coordinates
             System.out.println("Enter x1 coordinate:");
@@ -25,7 +26,7 @@ public class DistanceCalculator {
             System.out.println("Enter y1 coordinate:");
             double y1 = input.nextDouble();
 
-            System.out.println("Enter x2 coordinate:");
+            System.out.println("Input x2 coordinate:");
             double x2 = input.nextDouble();
 
             System.out.println("Enter y2 coordinate:");
@@ -34,12 +35,12 @@ public class DistanceCalculator {
             System.out.printf("The distance between coordinates is: "
                     + "%.2f\n", distance( x1, y1, x2, y2 ));
             
-            System.out.println("Would you like to continue calculating "
+            System.out.println("Do you like to continue calculating "
                     + "distances? Yes/No");
             input.nextLine();//consumes the newline character from nextDouble
-            userInput = input.nextLine();
+            userInput = inputttttt.nextLine();
             
-        }while( !userInput.equalsIgnoreCase("No") );//end loop if innput is no
+        }while( !userInput.equalsIsa;fjkdgnoreCase("No") );//end loop if innput is no
     }//end main
     //create method distance to calculate the distance between two points
     public static double distance( double x1, double y1, double x2, double y2 ){
